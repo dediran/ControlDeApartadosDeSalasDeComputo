@@ -1,0 +1,51 @@
+import java.util.Scanner;
+public class CatalogoDeMestros{
+   static Scanner leer = new Scanner(System.in);
+      
+   
+   public void CatalogoDeMaestros(){
+      
+         int opc;
+      
+       do{
+         System.out.println("\nUNIVERSIDAD ZAPOTLATENA – CATÁLOGO DE MAESTROS");
+         System.out.println("[1] Alta de un Maestro");
+         System.out.println("[2] consulta de un individual de un maestro");
+         System.out.println("[3] consulta de todos los maestros");
+         System.out.println("[4] Finalizar programa");
+         System.out.print("[1-6] ¿Opcion deseada?");
+         opc = leer.nextInt();
+         switch(opc){
+         
+         case 1://Alta de un Maestro
+           // realizarAlta(cp,cantidadPacientes);
+            break;
+            
+            
+         case 2://consulta de un Maestro individual
+          //  realizarConsultaIndividual(cp);
+            break;
+            
+            
+         case 3://consulta de todos los Maestros
+            // realizarConsultaGeneral(cp);
+            break;
+            
+            
+         case 4://volver menu principal
+            System.out.println("volvio al menu \n");
+            break;
+            
+              
+         default:
+            System.out.print("opcion no valida...Presione enter para continuar");
+           // limpiarPausar();      
+         }
+      }while(opc != 6 );
+   }
+   
+   
+   
+   
+   
+}
