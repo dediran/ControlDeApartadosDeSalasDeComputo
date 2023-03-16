@@ -30,7 +30,6 @@ public class Maestro {
       return "Datos del Maestro\n" + 
              "ID--------: " + id + "\n"+
              "Nombre----: " + nombre + "\n" +
-             "Academia--: \n\t\t-" + academia; 
+             "Academia--: " + academia + "\n"; 
    }
    
-}
