@@ -6,6 +6,11 @@ public class Maestro {
    
    //constructores
    
+   public Maestro(){
+      maestros = new maestros[100];
+         
+   }
+   
    public Maestro(int id, String nombre, String academia){
       this.id = id;
       this.nombre = nombre;
@@ -33,3 +38,6 @@ public class Maestro {
              "Academia--: " + academia + "\n"; 
    }
    
+   
+   
+}
