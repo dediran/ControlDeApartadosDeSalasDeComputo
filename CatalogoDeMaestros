@@ -18,7 +18,7 @@ public class CatalogoDeMestros{
          switch(opc){
          
          case 1://Alta de un Maestro
-           // realizarAlta(cp,cantidadPacientes);
+           // realizarAlta(cp,ca);
             break;
             
             
