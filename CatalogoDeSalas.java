@@ -1,10 +1,9 @@
 //echo por manu
 import java.util.Scanner;
 public class CatalogoDeSalas {
-   
    static Scanner leer = new Scanner(System.in);
     
-    public void CatalogoDeSalas () {
+    public void CatalogoDeSalas(MetSala s) {
       int opc;
       //utilizacion para crear un objeton de un arreglo de 20
       
@@ -20,27 +19,25 @@ public class CatalogoDeSalas {
          
          switch (opc) {
          
-            case 1://alta de un paciente
-               
+            case 1://alta de una sala
+               //realizarAltaSala(s);
                break;
                
             case 2://consulta de una sala
-            
-            
+               //realizarconsultaIndividualSala(s);
                break;   
                
             case 3://consulta de todas las salas
-            
+               //realizarConsultaGeneralSalas(s);
                break;
                
            case 4://Regresar al menu principal
             
                break; 
            default: 
-           System.out.println("----Opcion no valida----- ");
+           System.out.println("Opcion no valida...Precione Enter para Continuar ");
          } 
          
-      } while (opc != 5);
+      } while (opc != 4);
     }
-    
 }
