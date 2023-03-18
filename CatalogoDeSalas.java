@@ -6,13 +6,14 @@ public class CatalogoDeSalas {
     
     public void CatalogoDeSalas () {
       int opc;
+      //utilizacion para crear un objeton de un arreglo de 20
       
       do {
          System.out.println("\nCATALOGO DE SALAS DISPONIBLES");
-         System.out.println("[1] Alta de un paciente");
-         System.out.println("[2] Consulta de paciente");
-         System.out.println("[3] Consulta de todos los pacientes");
-         System.out.println("[4] Regresar ");
+         System.out.println("[1] Alta de sala");
+         System.out.println("[2] Consulta de una sala");
+         System.out.println("[3] Consulta de todas las salas");
+         System.out.println("[4] Regresar al menu principal ");
          
          System.out.print("Opcion deseada? : ");
          opc = leer.nextInt();
@@ -23,26 +24,23 @@ public class CatalogoDeSalas {
                
                break;
                
-            case 2://consulta de un paciente
+            case 2://consulta de una sala
             
             
                break;   
                
-            case 3://consulta de todos los pacientes
+            case 3://consulta de todas las salas
             
                break;
                
-           case 4://modificacion de un paciente
-           
+           case 4://Regresar al menu principal
             
-               break;
-               
-           
-                 
-                
+               break; 
+           default: 
+           System.out.println("----Opcion no valida----- ");
          } 
          
-      } while (opc != 6);
+      } while (opc != 5);
     }
     
 }
