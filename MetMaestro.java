@@ -1,5 +1,5 @@
 public class MetMaestro{
-   public final static int NUM_MAESTROS = 2; // cambiar a 100
+   public final static int NUM_MAESTROS = 100; 
    //atributos
    private Maestro maestros[];
    private int contM;

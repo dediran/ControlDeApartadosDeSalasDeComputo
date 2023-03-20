@@ -1,4 +1,3 @@
-//echo por Ramses
 public class Apartado {
    private int numApartado;
    private int idMaestro;

@@ -27,7 +27,7 @@ public class UniversidadZapotlatena {
             catalogoSalas.CatalogoDeSalas(s);
             break;
          case 3://Catalogo de Control de apartados
-            //catalogoApartado.CatalogoDeApartado(a);
+            catalogoApartado.CatalogoDeApartado(a,m,s);
             break;
          case 4://finalizar programa
             System.out.print("\nPrograma Finalizado");

@@ -1,4 +1,3 @@
-//echo por manuel
 public class Sala {
    //atributos
    private int idSala;

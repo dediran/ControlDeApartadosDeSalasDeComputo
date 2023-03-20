@@ -1,4 +1,4 @@
-//echo por mario
+
 import java.util.Scanner;
 public class CatalogoDeMaestros{
    static Scanner leer = new Scanner(System.in);
@@ -45,7 +45,7 @@ public class CatalogoDeMaestros{
       Maestro ma;
       int contador = m.getContM(), numMaestros = m.getNumMaestros();
       if(contador < numMaestros){
-         System.out.println("ALTA DE UN MAESTRO: ");
+         System.out.println("\nALTA DE UN MAESTRO: ");
          System.out.print("Ingrese el id---: ");
          idMaestro = leer.nextInt();
          celda = m.busqueda(idMaestro);
@@ -95,6 +95,7 @@ public class CatalogoDeMaestros{
    }
    
    private static void realizarConsultaGeneralMaestros(MetMaestro m){
+      System.out.println("\nCONSULTA GENERAL");
       if(m.getContM() == 0){
          System.out.print("\nNO hay Maestros en el Catalogo...Precione Enter para Continuar");
          limpiarPausar();
